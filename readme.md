@@ -4,7 +4,7 @@ DayLogger is a simple, elegant daily journaling web application that helps you t
 
 ## Demo
 
-Check out the live demo of DayLogger: https://nof1eld.github.io/daylogger
+Check out the live demo of DayLogger: https://nof1eld.github.io/DayLogger
 
 ## Features
 
@@ -26,7 +26,7 @@ Check out the live demo of DayLogger: https://nof1eld.github.io/daylogger
 ## Getting Started
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/daylogger.git
+   `git clone https://github.com/nof1eld/DayLogger.git`
 
 2. Open `index.html` in your preferred web browser.
 
