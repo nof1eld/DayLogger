@@ -1,0 +1,255 @@
+{
+    "quotes": [
+      {
+        "id": 1,
+        "quote": "The way to get started is to quit talking and begin doing.",
+        "author": "Walt Disney"
+      },
+      {
+        "id": 2,
+        "quote": "It's not knowing what to do, it's doing what you know.",
+        "author": "Tony Robbins"
+      },
+      {
+        "id": 3,
+        "quote": "Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and focused effort.",
+        "author": "Paul J. Meyer"
+      },
+      {
+        "id": 4,
+        "quote": "The most effective way to do it, is to do it.",
+        "author": "Amelia Earhart"
+      },
+      {
+        "id": 5,
+        "quote": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
+        "author": "Steve Jobs"
+      },
+      {
+        "id": 6,
+        "quote": "Ordinary people think merely of spending time, great people think of using it.",
+        "author": "Arthur Schopenhauer"
+      },
+      {
+        "id": 7,
+        "quote": "The key is not to prioritize what's on your schedule, but to schedule your priorities.",
+        "author": "Stephen Covey"
+      },
+      {
+        "id": 8,
+        "quote": "Don't watch the clock; do what it does. Keep going.",
+        "author": "Sam Levenson"
+      },
+      {
+        "id": 9,
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs"
+      },
+      {
+        "id": 10,
+        "quote": "Amateurs sit and wait for inspiration, the rest of us just get up and go to work.",
+        "author": "Stephen King"
+      },
+      {
+        "id": 11,
+        "quote": "The secret of getting ahead is getting started.",
+        "author": "Mark Twain"
+      },
+      {
+        "id": 12,
+        "quote": "Your time is limited, don't waste it living someone else's life.",
+        "author": "Steve Jobs"
+      },
+      {
+        "id": 13,
+        "quote": "Focus on being productive instead of busy.",
+        "author": "Tim Ferriss"
+      },
+      {
+        "id": 14,
+        "quote": "The only person you are destined to become is the person you decide to be.",
+        "author": "Ralph Waldo Emerson"
+      },
+      {
+        "id": 15,
+        "quote": "If you spend too much time thinking about a thing, you'll never get it done.",
+        "author": "Bruce Lee"
+      },
+      {
+        "id": 16,
+        "quote": "Productivity is being able to do things that you were never able to do before.",
+        "author": "Franz Kafka"
+      },
+      {
+        "id": 17,
+        "quote": "The difference between successful people and very successful people is that very successful people say no to almost everything.",
+        "author": "Warren Buffett"
+      },
+      {
+        "id": 18,
+        "quote": "Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.",
+        "author": "Francis of Assisi"
+      },
+      {
+        "id": 19,
+        "quote": "You don't have to see the whole staircase, just take the first step.",
+        "author": "Martin Luther King Jr."
+      },
+      {
+        "id": 20,
+        "quote": "The true price of anything you do is the amount of time you exchange for it.",
+        "author": "Henry David Thoreau"
+      },
+      {
+        "id": 21,
+        "quote": "The best way to predict your future is to create it.",
+        "author": "Peter Drucker"
+      },
+      {
+        "id": 22,
+        "quote": "If you have time to whine then you have time to find a solution.",
+        "author": "Dee Dee Artner"
+      },
+      {
+        "id": 23,
+        "quote": "Do the hard jobs first. The easy jobs will take care of themselves.",
+        "author": "Dale Carnegie"
+      },
+      {
+        "id": 24,
+        "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+        "author": "Winston Churchill"
+      },
+      {
+        "id": 25,
+        "quote": "The only way to achieve the impossible is to believe it is possible.",
+        "author": "Charles Kingsleigh"
+      },
+      {
+        "id": 26,
+        "quote": "Perfection is not attainable, but if we chase perfection we can catch excellence.",
+        "author": "Vince Lombardi"
+      },
+      {
+        "id": 27,
+        "quote": "The best way to find yourself is to lose yourself in the service of others.",
+        "author": "Mahatma Gandhi"
+      },
+      {
+        "id": 28,
+        "quote": "You miss 100% of the shots you don’t take.",
+        "author": "Wayne Gretzky"
+      },
+      {
+        "id": 29,
+        "quote": "Setting goals is the first step in turning the invisible into the visible.",
+        "author": "Tony Robbins"
+      },
+      {
+        "id": 30,
+        "quote": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+        "author": "Zig Ziglar"
+      },
+      {
+        "id": 31,
+        "quote": "You don’t have to be great to start, but you have to start to be great.",
+        "author": "Zig Ziglar"
+      },
+      {
+        "id": 32,
+        "quote": "Don't count the days, make the days count.",
+        "author": "Muhammad Ali"
+      },
+      {
+        "id": 33,
+        "quote": "Small deeds done are better than great deeds planned.",
+        "author": "Peter Marshall"
+      },
+      {
+        "id": 34,
+        "quote": "Do not wait to strike till the iron is hot; but make it hot by striking.",
+        "author": "William Butler Yeats"
+      },
+      {
+        "id": 35,
+        "quote": "The tragedy of life doesn’t lie in not reaching your goal. The tragedy lies in having no goal to reach.",
+        "author": "Benjamin Mays"
+      },
+      {
+        "id": 36,
+        "quote": "What you do today can improve all your tomorrows.",
+        "author": "Ralph Marston"
+      },
+      {
+        "id": 37,
+        "quote": "The future depends on what you do today.",
+        "author": "Mahatma Gandhi"
+      },
+      {
+        "id": 38,
+        "quote": "You will never win if you never begin.",
+        "author": "Helen Rowland"
+      },
+      {
+        "id": 39,
+        "quote": "Knowing is not enough; we must apply. Willing is not enough; we must do.",
+        "author": "Johann Wolfgang von Goethe"
+      },
+      {
+        "id": 40,
+        "quote": "Your mind is for having ideas, not holding them.",
+        "author": "David Allen"
+      },
+      {
+        "id": 41,
+        "quote": "The way to achieve your own success is to be willing to help somebody else get it first.",
+        "author": "Iyanla Vanzant"
+      },
+      {
+        "id": 42,
+        "quote": "You can’t cross the sea merely by standing and staring at the water.",
+        "author": "Rabindranath Tagore"
+      },
+      {
+        "id": 43,
+        "quote": "A year from now you may wish you had started today.",
+        "author": "Karen Lamb"
+      },
+      {
+        "id": 44,
+        "quote": "The best preparation for tomorrow is doing your best today.",
+        "author": "H. Jackson Brown Jr."
+      },
+      {
+        "id": 45,
+        "quote": "Start where you are. Use what you have. Do what you can.",
+        "author": "Arthur Ashe"
+      },
+      {
+        "id": 46,
+        "quote": "The only limit to our realization of tomorrow is our doubts of today.",
+        "author": "Franklin D. Roosevelt"
+      },
+      {
+        "id": 47,
+        "quote": "Opportunities don't happen. You create them.",
+        "author": "Chris Grosser"
+      },
+      {
+        "id": 48,
+        "quote": "It always seems impossible until it’s done.",
+        "author": "Nelson Mandela"
+      },
+      {
+        "id": 49,
+        "quote": "You may have to fight a battle more than once to win it.",
+        "author": "Margaret Thatcher"
+      },
+      {
+        "id": 50,
+        "quote": "Do not wait; the time will never be 'just right.' Start where you stand.",
+        "author": "Napoleon Hill"
+      }
+    ]
+  }
+  

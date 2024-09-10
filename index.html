@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily journal</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <h1>My Daily Journal</h1>
+      <div class="date-navigation">
+        <button id="previous-button"><img src="./assets/leftarrow.png" alt="Previous Day"></button>
+        <h2 id="current-date"></h2>
+        <button id="next-button"><img src="./assets/rightarrow.png" alt="Next Day" id="next-button-img" ></button>
+      </div>
+
+      <div class="quote-generator">
+        <p id="quote">Quote</p>
+        <h3>- <strong id="author">Author</strong></h3>
+      </div>
+
+      <div class="productivity-mood_scale">
+        <label>
+          Productivity
+          <input
+            type="number"
+            id="productivity-scale"
+            min="0"
+            max="10"
+          />
+          /10
+        </label>
+        <label>
+          Mood
+          <input type="number" id="mood-scale" min="0" max="10" /> /10
+        </label>
+      </div>
+
+      
+      <div class="checkbox-container">
+        <h3>Today's Agenda</h3>
+        <div class="row-1">
+          <div class="checkbox-wrapper">
+            <input type="checkbox" id="checkbox1" />
+            <label for="checkbox1">
+              <input
+                type="text"
+                id="checkbox1-text"
+                placeholder="Task 1"
+                maxlength="50"
+              />
+            </label>
+          </div>
+          <div class="checkbox-wrapper">
+            <input type="checkbox" id="checkbox2" />
+            <label for="checkbox2">
+              <input
+                type="text"
+                id="checkbox2-text"
+                placeholder="Task 2"
+                maxlength="50"
+              />
+            </label>
+          </div>
+        </div>
+        <div class="row-2">
+          <div class="checkbox-wrapper">
+            <input type="checkbox" id="checkbox3" />
+            <label for="checkbox3">
+              <input
+                type="text"
+                id="checkbox3-text"
+                placeholder="Task 3"
+                maxlength="50"
+              />
+            </label>
+          </div>
+          <div class="checkbox-wrapper">
+            <input type="checkbox" id="checkbox4" />
+            <label for="checkbox4">
+              <input
+                type="text"
+                id="checkbox4-text"
+                placeholder="Task 4"
+                maxlength="50"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="thanks-section">
+        <h3>Today I am thankful for ...</h3>
+        <label>1.<input type="text" id="thankful-1" maxlength="100" /> </label>
+        <label>2.<input type="text" id="thankful-2" maxlength="100" /> </label>
+      </div>
+
+      <div class="lessons-section">
+        <h3>Today's Lessons</h3>
+        <textarea
+          placeholder="Enter today's lesson..."
+          id="lessons-entry"
+          maxlength="145"
+          rows="5"
+        ></textarea>
+      </div>
+
+      <div class="sucks-section">
+        <div class="text">One thing I did that sucked:</div>
+        <input type="text" id="sucks-entry" maxlength="100" />
+      </div>
+
+      <button id="save-button">Save</button>
+    </main>
+  </body>
+
+  <script type="module" src="./index.js"></script>
+  <script type="module" src="./quote.js"></script>
+</html>

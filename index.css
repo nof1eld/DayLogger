@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Patrick+Hand&display=swap");
+
+:root {
+  --font-primary: "EB Garamond", serif;
+  --font-secondary: "Gloria Hallelujah", cursive, sans-serif;
+  --font-monospace: "Courier New", Courier, monospace;
+  --color-text: #000000ba;
+  --color-background: #ffffff;
+  --color-border: #333333;
+  --color-button: #0000009c;
+  --spacing-small: 7.2px;
+  --spacing-medium: 14.4px;
+  --spacing-large: 21.6px;
+  --line-height: 0.5rem;
+  --font-size-base: 15.3px;
+  --font-size-large: 14.4px;
+  --border-width: 1.4px;
+  --box-shadow: 0 0 7.2px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-large);
+  background-size: 100% var(--line-height);
+  line-height: var(--line-height);
+  color: var(--color-text);
+  margin: 0;
+  padding: var(--spacing-medium);
+}
+
+main {
+  display: grid;
+  place-items: center;
+  background-color: transparent;
+  padding: var(--spacing-large);
+  border: var(--border-width) solid var(--color-border);
+  box-shadow: var(--box-shadow);
+  max-width: 640px;
+  width: 100%;
+  gap: var(--spacing-large);
+}
+
+h1 {
+  margin-top: 36px;
+}
+
+.quote-generator {
+  margin-bottom: 28.8px;
+}
+
+#quote {
+  line-height: 1.4rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.date-navigation,
+.productivity-mood_scale {
+  display: flex;
+  gap: 60px;
+  margin-bottom: var(--spacing-medium);
+}
+
+.productivity-mood_scale label {
+  display: flex;
+  align-items: center;
+  font-weight: 480;
+  font-size: large;
+}
+
+.productivity-mood_scale label input {
+  width: 34px;
+  margin-left: 21.6px;
+  margin-right: 7.2px;
+  margin-top: -5px;
+  font-size: 18px;
+}
+
+.quote-generator,
+.thanks-section,
+.lessons-section {
+  display: grid;
+  place-items: center;
+  margin-bottom: var(--spacing-medium);
+  line-height: var(--line-height);
+}
+
+.thanks-section {
+  width: 100%;
+  gap: var(--spacing-large);
+}
+
+.thanks-section label {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--spacing-small);
+  width: 20rem;
+  font-size: 17px;
+}
+
+#thankful-1,
+#thankful-2 {
+  margin-bottom: -3px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  max-height: 30px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: var(--border-width) solid rgba(0, 0, 0, 0.6);
+  background-color: transparent;
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height);
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+textarea#lessons-entry:focus {
+  outline: none;
+}
+
+textarea#lessons-entry {
+  width: 100%;
+  padding: 8.5px 10px 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  line-height: 2rem;
+  background-image: repeating-linear-gradient(
+    #fff,
+    #fff 31px,
+    #000000bb 21px,
+    #000000bb 32px
+  );
+  font-family: var(--font-secondary);
+  font-size: 15px;
+  min-height: 100px;
+  min-width: 400px;
+  resize: none;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#save-button {
+  background-color: var(--color-background);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: 2px;
+  color: var(--color-text);
+  padding: var(--spacing-small) var(--spacing-medium);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: var(--font-size-base);
+  font-family: var(--font-secondary);
+  margin: 4px 2px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+}
+#save-button:hover {
+  color: rgb(0, 0, 0);
+}
+.date-navigation button {
+  background-color: transparent;
+  border-radius: 50%;
+  font-size: var(--font-size-large);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.checkbox-container {
+  display: grid;
+  gap: 20px;
+  width: 100%;
+  justify-items: center;
+}
+
+.checkbox-wrapper {
+  display: grid;
+  gap: 10px;
+  width: 230px;
+}
+
+.row-1,
+.row-2 {
+  display: flex;
+  gap: 10px;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-wrapper label {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.checkbox-wrapper label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #333;
+  line-height: 1.2rem;
+  padding-top: 0.1rem;
+  box-shadow: 0 0 0 2px #fffef7, 0 0 0 3px #333;
+}
+
+.checkbox-wrapper input[type="checkbox"]:checked + label:after {
+  content: "✓";
+  position: absolute;
+  left: 7.5px;
+  top: 10.5px;
+  font-size: 20px;
+  color: #333;
+}
+
+.sucks-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 70%;
+  height: 100%;
+}
+
+.sucks-section .text {
+  width: 75%;
+  font-size: larger;
+}
+
+#sucks-entry {
+  margin-top: -10px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  opacity: 0.8;
+}
+.disabled-img {
+  opacity: 0.5;
+}
