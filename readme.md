@@ -4,7 +4,7 @@ DayLogger is a simple, elegant daily journaling web application that helps you t
 
 ## Demo
 
-Check out the live demo of DayLogger: https://nof1eld.github.io/daylogger
+Check out the live demo of DayLogger: https://nof1eld.github.io/DayLogger
 
 ## Features
 
